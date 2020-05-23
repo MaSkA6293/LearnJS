@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contaner {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  padding: 4px 10px;
+  background-color: #4bff0094;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 11px #00af01;
+  outline: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  &:hover {
+    box-shadow: 0 0 10px green;
+  }
+}
