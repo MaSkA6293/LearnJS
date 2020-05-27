@@ -1,0 +1,14 @@
+.task6 {
+  &__input {
+    display: block;
+  }
+  &__out {
+    span {
+      display: block;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  }
+}

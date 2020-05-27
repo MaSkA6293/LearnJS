@@ -12,6 +12,8 @@ body {
   flex-direction: column;
 }
 .btn {
+  display: block;
+  margin: 5px 0;
   padding: 4px 10px;
   background-color: #4bff0094;
   border-radius: 5px;
@@ -21,6 +23,7 @@ body {
   outline: none;
   letter-spacing: 1px;
   font-weight: bold;
+  min-width: 120px;
   &:hover {
     box-shadow: 0 0 10px green;
   }

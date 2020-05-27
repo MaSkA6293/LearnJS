@@ -1,0 +1,13 @@
+.task9 {
+  &__out {
+    input {
+      display: block;
+    }
+  }
+  &__img {
+    background-image: url("./list.png");
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -4,23 +4,21 @@ const contaner = document.querySelector(".contaner");
 
 const t3 = document.createElement("div");
 t3.classList.add("task3");
+contaner.appendChild(t3);
+
+const labelTask = document.createElement("h2");
+labelTask.innerHTML = "Task 3";
+t3.appendChild(labelTask);
 
 let titleTask = document.createElement("p");
 titleTask.innerHTML = `Напишите программу которая создает строку, представляющую сетку 8x8,
 используя для разделения символ новой строки. В каждой позиции сетки стоит либо пробел, либо символ "#".
 Эти символы должны располагаться в шахматном порядке.`;
-
-let labelTask = document.createElement("h2");
-labelTask.innerHTML = "Task 3";
-
-t3.appendChild(labelTask);
 t3.appendChild(titleTask);
-
-contaner.appendChild(t3);
 
 let out = document.createElement("div");
 out.classList.add("task3__out");
-renderShessBord();
+t3.appendChild(out);
 
 let laberX = document.createElement("label");
 laberX.innerHTML = "Size X";
@@ -42,16 +40,17 @@ laberY.appendChild(inputY);
 
 inputX.classList.add("task3__input");
 inputY.classList.add("task3__input");
+
 t3.appendChild(laberX);
 t3.appendChild(laberY);
 
 let buttonGetResult = document.createElement("button");
 buttonGetResult.innerHTML = "Get result";
-
 buttonGetResult.addEventListener("click", getResult);
 buttonGetResult.classList.add("btn");
 t3.appendChild(buttonGetResult);
-document.querySelector(".task3").appendChild(out);
+
+renderShessBord();
 
 function renderShessBord(sizeX = 12, sizeY = 12) {
   let string = "";
