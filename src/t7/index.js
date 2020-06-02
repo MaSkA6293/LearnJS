@@ -110,3 +110,4 @@ function sum(str) {
   }
   resultSum.innerHTML = sum;
 }
+export default t7;

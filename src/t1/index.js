@@ -31,3 +31,5 @@ while (i < 7) {
   i++;
 }
 out.innerHTML = str;
+
+export default t1;

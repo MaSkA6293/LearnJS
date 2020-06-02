@@ -59,3 +59,4 @@ function countChar(str, char) {
   }
   result.innerHTML = `Количество совпадений в строке ${str} символу ${char}, равно  ${count}`;
 }
+export default t6;

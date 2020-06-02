@@ -70,3 +70,4 @@ function toggleResults() {
     });
   }
 }
+export default t2;

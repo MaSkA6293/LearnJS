@@ -51,3 +51,4 @@ function getResult(value) {
       : check(value - 2);
   }
 }
+export default t5;

@@ -46,3 +46,4 @@ function loop(value, funcIf, funcUpdate, funcBody) {
     value = funcUpdate(value);
   }
 }
+export default t11;

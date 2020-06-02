@@ -57,3 +57,4 @@ function getResult() {
     result.innerHTML = "Переменные равны";
   }
 }
+export default t4;

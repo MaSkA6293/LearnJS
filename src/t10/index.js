@@ -41,3 +41,4 @@ function collapseArray() {
   console.log("test:", testArray);
   console.log("result:", result);
 }
+export default t10;

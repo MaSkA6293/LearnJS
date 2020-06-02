@@ -1,15 +1,10 @@
 import "./index.scss";
-import t1 from "./t1";
-import t2 from "./t2";
-import t3 from "./t3";
-import t4 from "./t4";
-import t5 from "./t5";
-import t6 from "./t6";
-import t7 from "./t7";
-import t8 from "./t8";
-import t9 from "./t9";
-import t10 from "./t10";
-import t11 from "./t11";
-import t12 from "./t12";
-import t13 from "./t13";
-import t14 from "./t14";
+import * as Tasks from "./tasks";
+let allBlocks = document.querySelector(".contaner");
+// console.log(allBlocks);
+
+for (let i = 0; i < allBlocks.childNodes.length; i++) {
+  let span = document.createElement("span");
+  span.className = "border";
+  allBlocks.childNodes[i].appendChild(span);
+}

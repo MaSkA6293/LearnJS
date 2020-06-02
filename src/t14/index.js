@@ -124,3 +124,5 @@ function getResult() {
     Object.prototype.hasOwnProperty.call(map, 22)
   );
 }
+
+export default t14;

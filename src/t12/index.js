@@ -67,3 +67,4 @@ function every(array, test) {
 function everySome(array, test) {
   array.some(test) ? console.log("true") : console.log("false");
 }
+export default t12;

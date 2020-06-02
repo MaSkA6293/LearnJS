@@ -1,0 +1,32 @@
+.task23__tabs {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.task23__tabItem {
+  padding: 2px 15px;
+  min-width: 100px;
+  border-radius: 0 18px 0;
+  box-shadow: inset 2px 2px 2px #4942a06e;
+  background-color: #d1c4e9;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  &:hover {
+    box-shadow: 0 0 20px #4942a0;
+  }
+  &_activ {
+    background-color: #4527a0;
+    color: white;
+  }
+}
+
+.border {
+  height: 1px;
+  background-image: linear-gradient(90deg, #0080ff1f, #4300ff8c, #0080ff1f);
+  display: block;
+  margin: 5px 0;
+}

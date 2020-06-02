@@ -75,3 +75,4 @@ function getResult() {
   let getlengthminus = newvectorMinus.length;
   console.log("3. Длина вектора бъекта {x:-2,y:-3}: ", getlengthminus);
 }
+export default t13;

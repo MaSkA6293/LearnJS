@@ -118,3 +118,4 @@ function reverseArrayinPlace(str) {
   }
   resultReversePlace.innerHTML = `${inputarr}  ${outreversePlace}`;
 }
+export default t8;

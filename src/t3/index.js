@@ -72,3 +72,4 @@ function getResult() {
   let sizeY = +document.querySelectorAll(".task3__input")[1].value;
   renderShessBord(sizeX, sizeY);
 }
+export default t3;

@@ -90,3 +90,4 @@ function nth(list, n) {
   else if (n == 0) return list.value;
   else return nth(list.rest, n - 1);
 }
+export default t9;
